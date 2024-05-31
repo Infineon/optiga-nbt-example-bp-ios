@@ -1,0 +1,7 @@
+add-header:
+  # list of files for which to add or update SPDX headers
+  - "**/*.swift"
+
+remove-header:
+  # list of files for which to remove SPDX headers
+  - "**/*.swift"

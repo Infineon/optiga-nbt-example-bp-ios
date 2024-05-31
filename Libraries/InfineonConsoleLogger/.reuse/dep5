@@ -1,0 +1,5 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: .swiftformat 
+Copyright: 2024 Infineon Technologies AG
+License: CC0-1.0

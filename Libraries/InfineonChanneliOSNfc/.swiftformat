@@ -1,0 +1,92 @@
+# Custom SwiftFormat configuration
+
+# SwiftFormat will not use the Allman brace style, and will instead use another brace style (either K&R or GNU)
+--allman false
+
+# Specify how binary literals (numbers written in binary notation, like 0b1010) should be grouped for readability
+--binarygrouping 4,8
+
+# Add trailing commas to arrays and dictionaries for better readability and maintainability
+--commas always
+
+# Group decimal literals every 3 digits, starting from the 6th digit, for better readability
+--decimalgrouping 3,6
+
+# Place the else keyword on the same line as the closing brace of an if statement for compactness
+--elseposition same-line
+
+# Use the empty tuple () to represent the Void type in function declarations and other contexts
+--voidtype tuple
+
+# Use lowercase letters for the exponent in floating-point literals for improved consistency and readability
+--exponentcase lowercase
+
+# Disable grouping of digits in the exponent of floating-point literals for maximum readability
+--exponentgrouping disabled
+
+# Disable grouping of digits in the fraction of floating-point literals for maximum readability
+--fractiongrouping disabled
+
+# Ignore header comments in Swift files to preserve customized headers
+--header ignore
+
+# Group hexadecimal literals every 4 digits, starting from the 8th digit
+--hexgrouping 4,8
+
+# Use uppercase letters for better readability
+--hexliteralcase uppercase
+
+# Indent the contents of conditional compilation blocks for improved code 
+--ifdef indent
+
+# Set the indent level for each level of indentation to 4 spaces
+--indent 4
+--indentcase false
+
+# Group test-related import statements at the bottom of the import block for improved organization and clarity
+--importgrouping testable-bottom
+
+# Use LF line breaks for improved consistency across platforms
+--linebreaks lf
+
+# Set the maximum line width to 100 characters for improved readability and maintainability
+--maxwidth 100
+
+# Group octal literals every 4 digits, starting from the 8th digit, for improved readability
+--octalgrouping 4,8
+
+# Add spaces before and after operator symbols in function declarations for improved readability
+--operatorfunc spaced
+
+# Hoist let statements that use patterns for improved code readability and maintainability
+--patternlet hoist
+
+# Add spaces before and after range operators for improved readability
+--ranges spaced
+
+# Remove unnecessary uses of the self keyword for improved code readability and conciseness
+--self remove
+
+# Preserve original semicolon locations for code consistency and maintainability
+--semicolons inline
+
+# Remove unused function arguments and parameter names for improved code readability and conciseness
+--stripunusedargs always
+
+# Format code to be compatible with Swift 5.1 for improved code compatibility and support for latest language features
+--swiftversion 5.1
+
+# Remove trailing whitespace and blank lines for consistent code formatting and improved readability
+--trimwhitespace always
+
+# Wrap function arguments before/after the first argument for consistent code formatting and improved readability
+--wraparguments beforefirst
+
+# Wrap collection elements before/after the first element for consistent code formatting and improved readability //. Ignore for specific line with "/ swiftformat:ignore:wrap" 
+--wrapcollections beforeFirst
+
+# Wrap conditional statements after the first condition for consistent code formatting and improved readability
+--wrapconditions after-first
+
+# Use isEmpty property instead of count property for empty collection checks for improved performance
+--enable isEmpty

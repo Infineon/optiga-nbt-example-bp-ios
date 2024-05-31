@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: .swiftformat *.xctestplan *.plist *.entitlements InfineonNBTBP.xcodeproj*/* InfineonNBTBPTests/*/*.png *.sh */*/.swiftformat InfineonNBTBP/Presentation/Assets/*/*.xcassets/*/Contents.json InfineonNBTBP/Presentation/Assets/*/*.xcassets/Contents.json InfineonNBTBP/Presentation/Assets/Raw/*.pem
+Copyright: 2024 Infineon Technologies AG
+License: CC0-1.0
+
+Files: Docs/Img/*.png
+Copyright: 2024 Infineon Technologies AG
+License: CC-BY-4.0
+
+Files: InfineonNBTBP/Presentation/Assets/Images/Assets.xcassets/*/*.png InfineonNBTBP/Presentation/Assets/Images/Assets.xcassets/*/*.svg
+Copyright: 2024 Infineon Technologies AG
+License: CC-BY-NC-ND-4.0
+
+Files: InfineonNBTBP/Presentation/Assets/Fonts/SourceSans*.ttf InfineonNBTBP/Presentation/Assets/Fonts/SourceSans*.otf
+Copyright: 2014-2021 Adobe (http://www.adobe.com/)
+License: OFL-1.1
